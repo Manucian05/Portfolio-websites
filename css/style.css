@@ -1,0 +1,590 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Asap|Open+Sans|Quicksand&display=swap');
+body {
+    margin: 0;
+}
+.full {
+    width: 100%;
+    float: left;
+}
+.red {
+    background-color: red;
+    min-height: 80px;
+}
+.black {
+    background-color: black;
+    min-height: 80px;
+}
+.banner {
+    background-image: url('../images/america-architecture-blue-sky-1239162.jpg');
+    min-height: 1100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+.boxcenter1 {
+    width: 90%;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+    width: 20%;
+    min-height: 80px;
+    line-height: 80px;
+}
+.menu {
+    float: left;
+    width: 60%;
+    text-align: right;
+    line-height: 80px;
+}
+.menu nav a,p {
+    display: inline;
+    color: white;
+}
+.more {
+    float: left;
+    width: 20%;
+    text-align: right;
+    line-height: 80px;
+}
+.more nav a,p {
+    display: inline;
+    color: white;
+}
+.fu {
+    background: black;
+    border: none;
+    letter-spacing: 3px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: HelveticaNeueW01-Thin,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+
+
+}
+.mr {
+    margin-right: 20px;
+}
+.mr1 {
+    margin-right: 10px;
+}
+.mrt {
+    margin-top: 20px;
+}
+
+/* header black */
+
+.left {
+    width: 30%;
+    float: left;
+    line-height: 80px;
+    min-height: 80px;
+}
+.left a,h1 {
+    display: inline;
+}
+.right {
+    width: 70%;
+    float: left;
+}
+.color {
+    color: red;
+}
+.white {
+    color: white;
+    text-decoration: none;
+}
+.right {
+    text-align: right;
+}
+.font {
+    font-size: 60px;
+    color: white;
+    top: 200px;
+    left: 200px;
+    position: absolute;
+    font-family: 'Abril Fatface', cursive;
+}
+.button {
+    width: 180px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+
+}
+.button a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* section 2 */
+
+.main {
+    letter-spacing: 10px;
+}
+.bgblack {
+    min-height: 300px;
+    background-color: rgb(31, 30, 30);
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+.left1 {
+    float: left;
+    width: 50%;
+    min-height: 200px;
+    position: relative;
+}
+.left1 img {
+    width: 4%;
+    top: 130px;
+    left: 140px;
+    position: absolute;
+    animation: toright;
+}    
+.left1 h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: georgia,palatino,'book antiqua','palatino linotype',serif;;
+    position: absolute;
+    top: 85px;
+    left: 180px;
+    margin: 0px 0px;
+}
+.left1 h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 90px;
+    font-family: georgia,palatino,'book antiqua','palatino linotype',serif;;
+    position: absolute;
+    top: 40px;
+    left: 180px;
+    margin: 0px 0px;
+}
+.right1 {
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+.center {
+    margin: 100px;
+    width: 55%;
+    height: 40%;
+    border-left: 2px red solid;
+}
+.center p {
+    padding-left: 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    line-height: 1.7em;
+}
+.white {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 40px;
+}
+.tran {
+    float: right;
+    background-color: red;
+    width: 15%;
+    min-height: 30px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 40px;
+}
+.tran:hover {
+    background-color: black;
+}
+.tran a {
+    color: white;
+    text-decoration: none;
+}
+.tran a:hover {
+    color: red;
+}
+.lit span {
+    letter-spacing: 0.4em;
+    font: normal normal bold 28px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+}
+.font_0 {
+    width: 550px;
+    height: 80px;
+}
+.font_0 p {
+    font: normal normal bold 72px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    color: black;
+}
+.part1 {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    width: 100%;
+    min-height:700px;
+}
+.left2 img {
+    float: left;
+    margin-right: 20px;
+    width: 550px;
+    height: 700px;
+}
+
+.left2 {
+    float: left;
+    width: 40%;
+    min-height: 500px;
+    position: relative;
+}
+.right2 {
+    float: left;
+    width: 50%;
+    height: 700px;
+    position: relative;
+}
+.right2 p {
+    color: black;
+    line-height: 1.7em;
+    font: normal normal normal 16px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.sition {
+    background-color: red;
+    width: 40%;
+    min-height: 30px;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+}
+.sition:hover {
+    background-color: black;
+}
+.sition a {
+    color: white;
+    text-decoration: none;
+}
+.sition a:hover {
+    color: red;
+}
+.part2 {
+    margin-top: 40px;
+    margin-bottom: 200px;
+    width: 100%;
+    min-height: 700px;
+}
+.left3 {
+    float: left;
+    width: 30%;
+    min-height: 500px;
+    position: relative;
+}
+.left3 p {
+    color: black;
+    padding-top: 100px;
+    font: normal normal normal 16px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    position: absolute;
+    top: 180px;
+    left: 0px;
+}
+.right3 {
+    float: right;
+    width: 50%;
+    height: 800px;
+    position: relative;
+}
+.sbanner {
+    width: 650px;
+    float: right;
+    background-image: url(../images/big-ben-bridge-castle-460672.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200%;
+    position: relative;
+    margin-bottom: 40px;
+}
+.alumni {
+    color: black;
+    letter-spacing: 0.4em;
+    font: normal normal bold 28px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    position: absolute;
+    top: 80px;
+    left: 0px
+}
+.test {
+    color: black;
+    font: normal normal bold 72px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    letter-spacing: normal;
+    position: absolute;
+    top: 160px;
+    left: 0px;
+}
+.sition1 {
+    background-color: red;
+    width: 40%;
+    min-height: 30px;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 60px;
+    float: left;
+}
+.sition1:hover {
+    background-color: black;
+}
+.sition1 a {
+    color: white;
+    text-decoration: none;
+}
+.sition1 a:hover {
+    color: red;
+}
+.square {
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+}
+.square span {
+    color: red;
+    font: normal normal bold 28px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    letter-spacing: normal;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.square p {
+    font: normal normal normal 16px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    letter-spacing: normal;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+.part3 {
+    width: 100%;
+    min-height: 700px;
+    position: relative;
+}
+.f_left {
+    width: 50%;
+    min-height: 700px;
+    float: left;
+}
+.f_right {
+    width: 50%;
+    min-height: 700px;
+    float: left;
+}
+.sbanner2 {
+    background-image: url(../images/architecture-background-britain-1837590.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-bottom: 40px;
+}    
+.sbanner3 {
+    background-image: url(../images/architecture-buildings-business-3062705.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-bottom: 40px;
+}
+.square1 {
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+}
+.square2 {
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    bottom: 20px;
+    left: 756px;
+}
+.square1 span {
+    color: red;
+    font: normal normal bold 28px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    letter-spacing: normal;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.square1 p {
+    font: normal normal normal 16px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    letter-spacing: normal;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+.square2 span {
+    color: red;
+    font: normal normal bold 28px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    letter-spacing: normal;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.square2 p {
+    font: normal normal normal 16px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    letter-spacing: normal;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+.full-3 {
+    width: 100%;
+    min-width: 980px;
+    height: auto;
+    margin-left: 0;
+    float: left;
+    position: relative;
+}
+.pcenter h5 {
+    text-align: center;
+    letter-spacing: 0.4em;
+    font: normal normal bold 28px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    padding-bottom: 10px;
+}
+.pcenter h4 {
+    text-align: center;
+    font: normal normal bold 72px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+    margin: 0;
+}
+.pcenter h6 {
+    text-align: center;
+    font: normal normal normal 16px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+}
+.turn-1 {
+    width: 33%;
+    float: left;
+    position: relative;
+}
+.turn-2 {
+    width: 34%;
+    float: left;
+    position: relative;
+}
+.turn-3 {
+    width: 33%;
+    float: left;
+    position: relative;
+}
+.turn-1 h6,
+.turn-2 h6,
+.turn-3 h6 {
+    text-align: center;
+    letter-spacing: 0.4em;
+    font: normal normal bold 28px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+}
+.one,
+.two,
+.three {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.net {
+    position: absolute;
+    bottom: 15px;
+    left: 230px;
+}
+.turn-1 p {
+    position: absolute;
+    left: 185px;
+    bottom: 15px;
+    text-align: center;
+}
+.turn-2 p {
+    position: absolute;
+    left: 190px;
+    bottom: 15px;
+    text-align: center;
+}
+.boxcenter-5 {
+    margin: 0 auto;
+    width: 700px;
+    min-height: 400px;
+    position: relative;
+}
+.onLeft,
+.onLeft-1,
+.onRight,
+.onRight-1 {
+    float: left;
+    width: 348px;
+    border: solid 1px red;
+    height: 50px;
+}
+
+.onLeft p,
+.onRight p,
+.onLeft-1 p,
+.onRight-1 p,
+.onfull p {
+    color: black;
+    padding-left: 10px;
+    font: italic normal normal 13px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;
+}
+.onLeft:hover,
+.onRight:hover,
+.onLeft-1:hover,
+.onRight-1:hover,
+.onfull:hover {
+    background-color: red;
+}
+.onfull {
+    float: left;
+    width: 698px;
+    border: solid 1px red;
+    height: 100px;
+}
+.submit {
+   background-color:red;
+   position: absolute;
+   top: 250px;
+   left: 250px;
+   width: 200px;
+   height: 40px;
+   text-align: center;
+}
+.submit:hover {
+    background-color: black;
+}
+.submit a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    line-height: 40px;;
+}
+.submit a:hover {
+    color: red;
+}
+
+
